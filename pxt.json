@@ -1,0 +1,26 @@
+{
+    "name": "messung mit verteilung und ohne verteilung",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*",
+        "test chatgpt o1-mini": "github:bir-thg/test-chatgpt-o1-mini#c16ed5b66e3f8dafcf46a413abf13fdfe2532fee"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.42",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
